@@ -1,0 +1,101 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:#000f2b ; 
+    padding: 8px;
+}
+.menu {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    gap: 15px;
+}
+
+.menu button {
+    background-color: #000f2b;
+    border: 1px solid rgba(245, 245, 245, 0.651);
+    border-radius: 3px;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menu span {
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+img{
+    width: 80px;
+    height: auto;
+}
+
+a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+
+.search {
+    display: flex;
+    padding: 5px;
+}
+
+.glass {
+    border-radius: 0px 5px 5px 0px;
+    background-color: orange;
+    border: solid orange;
+    width: 60px;
+}
+
+.search input {
+    width: 500px;
+    border:0px;
+}
+ .search select {
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(224, 224, 224);
+    border-color:rgb(224, 224, 224);
+    border-right-color: #000f2b;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.list select {
+    background-color: #000f2b;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.carrinho {
+    background-color: #000f2b;
+    border: 0px;
+    color: white;
+    margin: 10px;
+}
+
+
+
+
+
+
