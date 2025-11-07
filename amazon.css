@@ -94,9 +94,29 @@ a {
     margin: 10px;
 }
 
+.header2{
+    display: flex;
+    background-color: #3d3d66;
+}
+
+.local{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.local button { 
+    display: flex;
+    justify-content: space-between;
+}
+
 .header2 button {
     color: white;
     background-color: #3d3d66;
+    border: 0px;
+    padding: 5px;
+    
 }
 
 
