@@ -137,6 +137,18 @@ a {
     border: none;
 }
 
+.header3 {
+    display: flex;
+    justify-content:space-around;
+    background-color: #f3f4f6
+}
 
+.header3 button {
+    background-color: #f3f4f6;
+    padding: 10px 15px 10px 15px;
+    /*border: 1px solid white;*/
+    border-radius: 2px;
+    border: none;
+}
 
 
